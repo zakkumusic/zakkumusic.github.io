@@ -48,6 +48,13 @@
 
 <body>
 
+	<canvas id="particles" style="position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5000;
+	z-index: -1; /* Ensure it is behind other content */"></canvas>
+
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
@@ -478,6 +485,8 @@
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 	</div>
 
+
+	<script src="js/particles.js"></script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
